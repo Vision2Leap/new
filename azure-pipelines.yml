@@ -21,9 +21,9 @@ steps:
 - task: CmdLine@2
   inputs:
     script: |
-      echo $(name)
-      echo $(password)
-      echo $(nametest)
+      echo $(name)               #from local pipeline variable
+      echo $(password)           #from variable group
+      echo $(nametest)           #from variable group- unsecured
       echo $(System.DefaultWorkingDirectory)
       
       echo Hello world
