@@ -17,6 +17,8 @@ steps:
   inputs:
     script: |
       echo $(name)
+      echo $(password)
+      echo $(System.DefaultWorkingDirectory)
       
       echo Hello world
   displayName: 'Run a one-line script'
