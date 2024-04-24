@@ -18,6 +18,7 @@ steps:
     script: |
       echo $(name)
       echo $(password)
+      echo $(nametest)
       echo $(System.DefaultWorkingDirectory)
       
       echo Hello world
