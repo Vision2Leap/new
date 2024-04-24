@@ -9,6 +9,11 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 
+parameters:
+  - name: projectname
+    displayName: Please provide name of the project
+    type: string
+    
 steps:
 - script: echo Hello, world!
   name: 'sample'
