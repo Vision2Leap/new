@@ -11,8 +11,8 @@ pool:
 
 steps:
 - script: echo Hello, world!
-  name: 'sample stage_01'
-  displayName: 'same one'
+  name: 'sample'
+  displayName: 'sample one'
 - task: CmdLine@2
   inputs:
     script: |
