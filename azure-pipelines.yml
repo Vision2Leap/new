@@ -25,7 +25,8 @@ steps:
       echo $(password)           #from variable group
       echo $(nametest)           #from variable group- unsecured
       echo $(System.DefaultWorkingDirectory)
-      
+      echo $(Build.ArtifactStagingDirectory)
+      echo Hello world
       echo Hello world
   displayName: 'Run a one-line script'
 
